@@ -1,4 +1,4 @@
-# GoPlus API GO-SDK
+# GoPlus API Go-SDK
 
 
 ## Get AccessToken
