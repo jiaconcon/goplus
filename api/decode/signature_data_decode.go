@@ -13,9 +13,9 @@ type Config struct {
 }
 
 type Result struct {
-	Code    int                    `json:"code"`
-	Message string                 `json:"message"`
-	Result  map[string]interface{} `json:"result"`
+	Code    int            `json:"code"`
+	Message string         `json:"message"`
+	Result  map[string]any `json:"result"`
 }
 
 type SignatureDataDecode struct {
