@@ -20,6 +20,22 @@ if data.Code != 1 {
 accessToken := data.Result.AccessToken
 ```
 
+## Get Supported Blockchains
+
+```go
+accessToken := ""
+supportedChains := NewSupportedChains(accessToken, nil)
+data, err := supportedChains.Run("")
+
+if err != nil {
+    panic(err)
+}
+if data.Code != 1 {
+    panic(data.Message)
+}
+
+```
+
 ## Token Security
 
 ```go
